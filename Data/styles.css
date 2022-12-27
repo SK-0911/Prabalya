@@ -1,0 +1,121 @@
+:root{
+	--marine-blue: #010939;
+	--peach: #ED5858;
+	--deep-red: #820000;
+	--nav-height: 80px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+
+	font-family: sans-serif;
+}
+
+body{
+	background: var(--marine-blue);
+	height: 400vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+nav{
+	position: fixed;
+	height: var(--nav-height);
+	width : 100vw;
+
+	display: flex;
+	align-items: center;
+
+	background: var(--deep-red);
+	font-size: 20pt;
+	font-weight: 800;
+
+	transition: 0.6s;
+}
+
+nav ul{
+	list-style-type:none;
+	align-items: center;
+}
+
+nav ul li{
+	display: flex;
+	float: left;
+	margin: 0 30px;
+
+	text-align: center;
+
+	/*border: 2px solid white;*/
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: var(--peach);
+}
+
+nav ul li img{
+	height: 40px;
+}
+
+.section{
+	width: 100vw;
+	height: 100vh;
+	/*border: 1px solid red;*/
+	color: white;
+	position: relative;
+
+}
+
+#PrabalyaTitle{
+	color: var(--peach);
+	font-size: 5rem;
+	font-weight: 800;
+	position: absolute;
+	top: 15%;
+	left: 15%;
+}
+
+#intro_welcome{
+	background: var(--peach);
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	bottom: 0px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	overflow: hidden;
+}
+
+#intro_welcome_text{
+	width: 70%;
+	height: auto;
+	
+	color: var(--marine-blue);
+	text-align: justify;
+	font-size: 21px;
+	font-weight: 800;
+
+	z-index: 1;
+}
+
+#TitleCricket{
+	position: absolute;
+	width: 60%;
+	top: 8%;
+	right: 0;
+}
+
+#TitleStadium{
+	position: absolute;
+	z-index: 0;
+	bottom: 0;
+	left: 0;
+	mix-blend-mode: soft-light;
+	width: 80%;
+}
+
