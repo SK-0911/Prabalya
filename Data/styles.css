@@ -79,8 +79,8 @@ nav ul li img{
 	position: absolute;
 }
 
-#PrabalyaTitle{
-	top: 13%;
+#PrabalyaTitle, #RegTitle{
+	top: 10%;
 	left: 10%;
 }
 
@@ -155,6 +155,17 @@ nav ul li img{
 
 }
 
+#EventsForm{
+	background: var(--peach);
+	position: absolute;
+	width: 25%;
+	height: 70%;
+	right: 10%;
+	top: 50%;
+	transform: translateY(-50%);
+	;
+}
+
 footer{
 	background: var(--deep-red);
 	position: absolute;
@@ -173,5 +184,5 @@ footer{
 
 .footer_partition img{
 	height: 60px;
-	padding: 0 30px;
+	padding: 0 40px;
 }
