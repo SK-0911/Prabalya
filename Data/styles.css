@@ -31,6 +31,7 @@ nav{
 	font-size: 20pt;
 	font-weight: 800;
 
+	top: 0;
 	transition: 0.6s;
 	z-index: 100;
 }
@@ -129,21 +130,27 @@ nav ul li img{
 	width: 80%;
 }
 
+
+
+#EventsSections{
+	overflow: hidden;
+}
+
 #EventsTitle{
 	position: absolute;
 	right: 10%;
 	top: 10%;
+	z-index: 99;
 }
 
 .EventDetailsBox{
+	display: block;
 	background: violet;
 	border: 1px solid red;
-	
+	float: left;
+
 	width: 50%;
 	height: 100%;
-}
 
-#EventsSections{
-	display: flex;
-	flex-flow: nowrap;
+
 }
