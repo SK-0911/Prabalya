@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="90"
+   height="90"
+   viewBox="0 0 90 90"
+   fill="none"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="Right Swipe.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     id="rect2"
+     style="fill:#ffffff;fill-opacity:1"
+     d="M 45 0 C 69.929975 0 90 20.070025 90 45 C 90 69.929975 69.929975 90 45 90 C 20.070025 90 0 69.929975 0 45 C 0 20.070025 20.070025 0 45 0 z M 33.792969 22.517578 A 4.5 4.5 0 0 0 30.742188 24.119141 A 4.5 4.5 0 0 0 31.318359 30.457031 L 48.771484 45 L 31.318359 59.542969 A 4.5 4.5 0 0 0 30.742188 65.880859 A 4.5 4.5 0 0 0 37.080078 66.457031 L 58.681641 48.457031 A 4.50045 4.50045 0 0 0 58.681641 41.542969 L 37.080078 23.542969 A 4.5 4.5 0 0 0 33.792969 22.517578 z "
+     transform="matrix(-1 0 0 1 90 0)" />
+</svg>
