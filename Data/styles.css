@@ -72,6 +72,8 @@ nav ul li img{
 	color: white;
 	position: relative;
 
+	margin-bottom: 10%;
+
 	/*overflow-y: hidden;*/
 }
 
@@ -137,24 +139,24 @@ nav ul li img{
 
 
 #EventsSections{
-	width : 400vw;
+	width : 500vw;
 	display: flex;
 }
 
 #EventsTitle{
 	position: absolute;
-	left: 13%;
-	top: 10%;
+	left: 55vw;
+	top: 0%;
 	z-index: 99;
 }
 
 .EventDetailsBox{
 	position: relative;
 	display: block;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	float: left;
 
-	width: 50%;
+	width: 100%;
 	height: 100%;
 
 }
@@ -180,6 +182,14 @@ nav ul li img{
 }
 .event_desc{
 	font-size: 1rem;
+}
+
+.EventDetailsBox img{
+	width: 30%;
+	position: absolute;
+	bottom: 5%;
+	left: 25%;
+	transform: translateX(-50%);
 }
 
 
