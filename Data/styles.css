@@ -136,7 +136,31 @@ nav ul li img{
 	width: 80%;
 }
 
+.eventsSlider{
+	width: 30px;
+	border: none;
+	background: transparent;
+	color: #fff;
+	font-size: 10em;
+	text-align: center;
+	outline: none;
+	opacity: 0.5;
+	transition: opacity 300ms ease-out;
+	position: absolute;
+	margin-top: 400px;
+	
+	/* &:hover{
+	  opacity: 1;
+	} */
+}
 
+#leftSlider{
+	margin-left: 50px;
+}
+
+#rightSlider{
+	margin-left: 1050px;
+}
 
 #EventsSections{
 	width : 500vw;
