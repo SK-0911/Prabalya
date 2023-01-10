@@ -143,11 +143,8 @@ nav ul li img{
 	color: #fff;
 	font-size: 10em;
 	text-align: center;
-	outline: none;
 	opacity: 0.5;
-	transition: opacity 300ms ease-out;
 	position: absolute;
-	margin-top: 400px;
 	
 	/* &:hover{
 	  opacity: 1;
@@ -155,15 +152,17 @@ nav ul li img{
 }
 
 #leftSlider{
-	margin-left: 50px;
+	margin-top: 300px;
+	left: 50px;
 }
 
 #rightSlider{
-	margin-left: 1050px;
+	margin-top: 200px;
+	right: 150px;
 }
 
 #EventsSections{
-	width : 500vw;
+	width : 100%;
 	display: flex;
 }
 
@@ -172,6 +171,11 @@ nav ul li img{
 	left: 55vw;
 	top: 0%;
 	z-index: 99;
+}
+
+#EventDetailsContainer{
+	background: gold;
+	width: 500%;
 }
 
 .EventDetailsBox{
