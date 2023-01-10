@@ -17,8 +17,8 @@ function prev_slide(){
 
 }
 
-function next_slide() {
-    events_scroll = Math.min(events_scroll+20, 80);
+function next_slide(){
+    events_scroll = (events_scroll+20)%100;
     document.getElementById("EventDetailsContainer").style.transform = "translateX(" + -events_scroll + "%)";
     console.log("preivious", "translateX(" + -events_scroll + "%)")
 }

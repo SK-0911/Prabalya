@@ -180,6 +180,7 @@ nav ul li img{
 	overflow: scroll;
 
 	transform: translateX(0%);
+	transition-duration: 0.5s;
 }
 
 .EventDetailsBox{
@@ -187,7 +188,6 @@ nav ul li img{
 	display: flex;
 	overflow: auto;
 	flex: 1;
-	/*border: 1px solid red;*/
 	float: left;
 
 	width: 20%;
