@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Data/styles.css">
     <title>Parablya</title>
-    <link rel="icon" type="image/x-icon" href="/images/Prabalya-Logo.svg?">
+    <link rel="icon" type="image/x-icon" href="./images/Prabalya-Logo.svg">
 </head>
 
 <script src="./Data/homepage-script.js"></script>
@@ -45,9 +45,6 @@
     <div class="section" id="EventsSections">
         <span id="EventsTitle" class="title-texts">Our Events</span>
 
-        <button class= "eventsSlider" id= "leftSlider" onclick="prev()">&laquo;</button> 
-        <button class= "eventsSlider" id= "rightSlider" onclick="next()">&raquo;</button> 
-
         <div id="EventDetailsContainer">
             <div class="EventDetailsBox">
                 <div class="eve eve1">
@@ -73,7 +70,7 @@
                     <div class="event_name">Cricket 11v11</div>
                     <div class="event_desc">Cricket is played between two teams of eleven players each. One team, which is batting, tries to score runs, while the other team is fielding, and tries to prevent this. Runs are scored by hitting the ball, which is thrown by a player from the fielding team to a player from the batting team, across the boundary, or by the two batting players running back-and-forth between the two wickets.</div>
                 </div>
-                <img src="./images/chess.png">
+                <img src="./images/Cricket.svg">
             </div>
 
 
@@ -81,14 +78,14 @@
                 <div class="eve eve1">
                     <div class="event_name">Basketball</div>
                     <div class="event_desc">Feel the heat and dunk on repeat ; A game thats just not about aiming skills but also team work drills.
-    Basketball is a team sport in which two teams of five active players. Each try to score points against one another by propelling a ball through a 10 feet (3m) high hoop (the goal) under organised rules.
-    Points are scored by shooting the ball through the basket; the team with more points at the end of the game wins.</div>
+                    Basketball is a team sport in which two teams of five active players. Each try to score points against one another by propelling a ball through a 10 feet (3m) high hoop (the goal) under organised rules.
+                    Points are scored by shooting the ball through the basket; the team with more points at the end of the game wins.</div>
                 </div>
 
                 <div class="eve eve2">
                     <div class="event_name">Carrom</div>
                     <div class="event_desc">Carrom is an indoor tabletop game. It is played for fun and as a competitive sport. There are two players or two teams. The time it takes to play a game changes with each game. It is a brain game.
-    It is played on a smooth wooden board with 4 pockets on the 4 corners of the board. A base line from which players make their shots is drawn on the board.</div>
+                    It is played on a smooth wooden board with 4 pockets on the 4 corners of the board. A base line from which players make their shots is drawn on the board.</div>
                 </div>
                 <img src="./images/chess.png">
             </div>
@@ -98,7 +95,7 @@
                 <div class="eve eve1">
                     <div class="event_name">Box Cricket</div>
                     <div class="event_desc">Indoor cricket or BOX CRICKET involves two teams with 6- 8 players each playing in a closed space, usually a net- covered turf. Matches are played within an hour’s time frame with rules set before the game or tournament.
-    Is it about how hard you hit, or about how hard you get hit? Test it out at the box cricket event!</div>
+                    Is it about how hard you hit, or about how hard you get hit? Test it out at the box cricket event!</div>
                 </div>
 
                 <div class="eve eve2">
@@ -113,7 +110,7 @@
                 <div class="eve eve1">
                     <div class="event_name">Foosball</div>
                     <div class="event_desc">Table football, also known as foosball is a table-top game that is loosely based on association-football . The aim of the game is to move the ball into the opponent's goal by manipulating rods which have figures attached.
-    In this scenario, one player usually controls the two defensive rows and the other team member uses the midfield and attack rows A perfect indoor game where the team spirit and aggression of football can be shown.</div>
+                    In this scenario, one player usually controls the two defensive rows and the other team member uses the midfield and attack rows A perfect indoor game where the team spirit and aggression of football can be shown.</div>
                 </div>
 
                 <div class="eve eve2">
@@ -123,6 +120,9 @@
                 <img src="./images/chess.png">
             </div>
         </div>
+
+        <button type="button" class="eventsSlider" id="leftSlider"  onclick="prev_slide()">&laquo;</button> 
+        <button type="button" class="eventsSlider" id="rightSlider" onclick="next_slide()">&raquo;</button> 
 
 
     </div>

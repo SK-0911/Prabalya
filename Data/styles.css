@@ -68,7 +68,7 @@ nav ul li img{
 .section{
 	width: 100vw;
 	height: 100vh;
-	/*border: 1px solid red;*/
+	/*border: 3px solid green;*/
 	color: white;
 	position: relative;
 
@@ -145,11 +145,10 @@ nav ul li img{
 	text-align: center;
 	opacity: 0.5;
 	position: absolute;
-	
-	/* &:hover{
-	  opacity: 1;
-	} */
 }
+.eventsSlider:hover{
+	  opacity: 1;
+	}
 
 #leftSlider{
 	margin-top: 300px;
@@ -158,7 +157,7 @@ nav ul li img{
 
 #rightSlider{
 	margin-top: 200px;
-	right: 150px;
+	left: 1150px;
 }
 
 #EventsSections{
@@ -172,19 +171,26 @@ nav ul li img{
 	top: 0%;
 	z-index: 99;
 }
-
+/*///////////////////////////////////////*/
 #EventDetailsContainer{
-	background: gold;
+	position: absolute;
+	display: inline;
 	width: 500%;
+	height: 100%;
+	overflow: scroll;
+
+	transform: translateX(0%);
 }
 
 .EventDetailsBox{
 	position: relative;
-	display: block;
+	display: flex;
+	overflow: auto;
+	flex: 1;
 	/*border: 1px solid red;*/
 	float: left;
 
-	width: 100%;
+	width: 20%;
 	height: 100%;
 
 }
@@ -229,7 +235,6 @@ nav ul li img{
 	right: 10%;
 	top: 50%;
 	transform: translateY(-50%);
-	;
 }
 
 footer{
