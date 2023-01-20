@@ -177,7 +177,7 @@ nav ul li img{
 	display: inline;
 	width: 500%;
 	height: 100%;
-	overflow: scroll;
+	overflow: hidden;
 
 	transform: translateX(0%);
 	transition-duration: 0.5s;
