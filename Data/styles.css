@@ -18,7 +18,7 @@ img{
 
 body{
 	background: var(--marine-blue);
-	height: 400vh;
+	height: auto;
 	width: 100vw;
 	overflow-x: hidden;
 }

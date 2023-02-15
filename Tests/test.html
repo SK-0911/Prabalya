@@ -9,7 +9,7 @@
 
 	<div id="frame">
 
-		<div class="elem">k</div>
+		<div class="elem">a</div>
 		<div class="elem">l</div>
 		<div class="elem">m</div>
 		<div class="elem">n</div>
@@ -21,26 +21,27 @@
 
 <style>
 	*{margin: 0; padding: 0}
-	body{
-		background: blue;
-	}
+	body{ background: blue;}
 
 	#frame{
 		background: red;
-		width: 50%;
+		width: 600px;
 		height: 200px;
 
-		display: table-row;
 		overflow: hidden;
+		white-space: nowrap;
+		font-size: 0;
 	}
 
 	.elem{
 		width: 150px;
 		height: 100px;
-		background: wheat;
+		background: white;
 		border: 3px solid black;
 
-		display: table-cell;
+		display: inline-block;
+		text-align: center;
+		font-size: 1rem;
 	}
 
 </style>
